@@ -351,13 +351,11 @@ const buttonTwentySeven = document.querySelector(".b-27");
 const resultTwentySeven = document.querySelector("#resultTwentySeven");
 
 const makeTwentySeven = () => {
-  const x = Math.floor(Math.random() * 100);
-  if (x >= 50 && x < 100) {
-    resultTwentySeven.innerText = x;
-  } else {
-    return;
-  }
+  const num = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
+  resultTwentySeven.innerText = num;
 };
+
+buttonTwentySeven.addEventListener("click", makeTwentySeven);
 
 buttonTwentySeven.addEventListener("click", makeTwentySeven);
 
