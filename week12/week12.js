@@ -357,8 +357,6 @@ const makeTwentySeven = () => {
 
 buttonTwentySeven.addEventListener("click", makeTwentySeven);
 
-buttonTwentySeven.addEventListener("click", makeTwentySeven);
-
 //Задание 28
 //Округлите число 4.47 в большую сторону с помощью метода Math.ceil(). Добавьте слушатель события на кнопку "Задание 28" и выведите результат на экран.
 
